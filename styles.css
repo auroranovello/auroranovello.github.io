@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #ffe4e1; /* Light pink background */
+    color: #8b4a4a; /* Warm brown text */
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    margin: 20px 0 10px;
+    color: #8b4a4a; /* Warm brown */
+}
+
+p {
+    margin: 5px 0;
+}
+
+a {
+    color: #8b4a4a; /* Warm brown for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Language Switcher */
+#language-switcher {
+    margin: 10px;
+}
+
+#language-switcher button {
+    background-color: #ffe4e1; /* Matching background */
+    border: 2px solid #8b4a4a; /* Warm brown border */
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    color:#8b4a4a;
+}
+
+#language-switcher button:hover {
+    background-color: #ffcdc1; /* Slightly darker peach on hover */
+}
+
+/* Header */
+header {
+    background-color: #ffb6b9; /* Soft peach for a warm tone */
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(139, 74, 74, 0.3); /* Subtle shadow with warm brown */
+}
+
+/* Details Section */
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+.detail-card {
+    background-color: #ffc3c7; /* Light peach for cards */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(139, 74, 74, 0.3); /* Warm brown shadow */
+}
+
+.detail-card p {
+    font-family: 'Lato', sans-serif;
+    color: #8b4a4a; /* Warm brown text */
+}
+
+/* Message Section */
+.message {
+    padding: 0 20px;
+    margin-top: 30px;
+}
+
+.message p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    color: #a05252; /* Medium warm brown for contrast */
+}
+
+/* Footer */
+footer {
+    background-color: #ffb6b9; /* Matching header */
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #8b4a4a; /* Warm brown for consistency */
+}
+
+.social-icons a:hover {
+    color: #e9967a; /* Coral for hover effect */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .details {
+        grid-template-columns: 1fr;
+    }
+
+    .hero img {
+        max-width: 100%;
+    }
+
+    .message p {
+        font-size: 1.2em;
+    }
+}
